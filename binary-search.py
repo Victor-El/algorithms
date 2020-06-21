@@ -11,7 +11,7 @@ else it checks if the search key is greater than the middle element,
 if true, it splits the array into two, it focuses on the sublist or 
 sub array of the main list or array that is lower than the initial mid
 element. The algorithm keeps iterating this process till it finds a match.
-The BigO notation of binary search id O(log n)
+The time complexity BigO notation of binary search is O(log n)
 """
 
 import time
