@@ -3,6 +3,14 @@
  The algorithm can also be easily implemented in any language of your choice
  The BigO notation for linear search is O(n)
 """
+
+"""
+Linear search algorithm works by comparing the search key with
+every single element in a collection till it finds a match.
+It is a simple algorithm but it is inefficient compared to
+binary search.
+"""
+
 import time
 
 print("Linear Search")
