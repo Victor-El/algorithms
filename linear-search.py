@@ -28,7 +28,7 @@ you search number.
 """
 arg_arr = list(map(lambda x: x, range(100_000_000)))
 
-def search(arr, num):
+def search(arr, key):
 	global t1
 	global t2
 
@@ -36,7 +36,7 @@ def search(arr, num):
 	arr.sort()
 
 	for i in arr:
-		if i == num:
+		if i == key:
 			t2 = time.time()
 			return arr.index(i)
 
