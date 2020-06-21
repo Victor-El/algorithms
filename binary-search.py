@@ -75,4 +75,4 @@ def search(arr, key):
 result = search(arg_arr, 1_000_000)
 
 print("found result: ", result, "after ", t2 - t1, "secs")
-print("In", steps, "steps")
+print("In", steps, "step(s)")

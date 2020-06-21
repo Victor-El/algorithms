@@ -1,2 +1,2 @@
-set currentfile=linear-search.py
+set currentfile=recursive-binary-search.py
 py -3 %currentfile%

@@ -17,6 +17,7 @@ print("Linear Search")
 
 t1 = 0
 t2 = 0
+steps = 0
 
 """
 The generation of this array takes a lot of time
@@ -31,11 +32,13 @@ arg_arr = list(map(lambda x: x, range(100_000_000)))
 def search(arr, key):
 	global t1
 	global t2
+	global steps
 
 	t1 = time.time()
 	arr.sort()
 
 	for i in arr:
+		steps += 1
 		if i == key:
 			t2 = time.time()
 			return arr.index(i)
@@ -46,3 +49,4 @@ def search(arr, key):
 result = search(arg_arr, 5_000_000)
 
 print("found result: ", result, "after ", t2 - t1, "secs")
+print("In", steps, "step(s)")
