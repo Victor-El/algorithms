@@ -1,7 +1,7 @@
 """
  This python script illustrates how to implement the linear search algorithm.
  The algorithm can also be easily implemented in any language of your choice
- The BigO notation for linear search is O(n)
+ The BigO notation for time complexity of linear search is O(n)
 """
 
 """
