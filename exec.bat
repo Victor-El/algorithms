@@ -1,2 +1,2 @@
-set currentfile=selection-sort.py
+set currentfile=insertion-sort.py
 py -3 %currentfile%
